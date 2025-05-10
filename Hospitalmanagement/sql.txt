@@ -1,0 +1,20 @@
+create database hospital;
+use hospital;
+create table patient(
+id int,
+name varchar(255),
+age int,
+doctorName varchar(255)
+);
+create table doctor (
+id int,
+name varchar(255),
+Department varchar(255)
+);
+select*from doctor;
+create table appointment(
+pid int,
+did int,
+date varchar(255)
+);
+select*from appointment;

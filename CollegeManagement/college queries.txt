@@ -1,0 +1,18 @@
+CREATE DATABASE mcollege;
+
+USE mcollege;
+
+CREATE TABLE students (
+    Rollnumber INT PRIMARY KEY,
+    StudentName VARCHAR(100),
+    Class VARCHAR(50),
+);
+
+
+Demo data
+INSERT INTO students (Rollnumber, StudentName, Class, computer, english, math) VALUES
+(1, 'Aarav Sharma', 'A'),
+(3, 'Rohan Patel', 'C'),
+(4, 'Priya Singh',  'A'),
+(5, 'Kartik', 'b'),
+(25, 'lomash', 'csbs');
